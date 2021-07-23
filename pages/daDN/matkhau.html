@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đổi mật khẩu</title>
+
+    <link rel="stylesheet" href="../../libs/bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../libs/jquery/sakura-master/dist/sakura.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../libs/css/taikhoan.css">
+</head>
+<body>
+  <header >
+    <div class="load-html" data-source = "zzzheader2.html"></div>
+  </header>
+   
+    <article class="container py-5 main">
+        <div class="row">
+          <div class="blk-user col-md-12">
+            <div class="row">
+               <div class="col-md-3 col-sm-12 mb-4">
+                <div class="blk-user-left blk-user-bor full d-block text-center">
+                    <div class="blk-user-avatar">
+                        <img src="../../images/icon/01480f29ce376005edcbec0b30cf367d.jpg" alt="avatar" >
+                        <h5 >Ngọc Mai</h5>
+                    </div>
+                    <div class="blk-user-nav text-left">
+                        <ul>
+                            <li>
+                                <a href="taikhoan.html">Thông tin tài khoản</a>
+                            </li>
+                            <li>
+                                <a href="matkhau.html" class="active">Đổi mật khẩu</a>
+                            </li>
+                            <li>
+                                <a href="thongbao.html">Thông báo</a>
+                            </li>
+                            <li>
+                                <a href="lichsu.html">Lịch sử đơn hàng</a>
+                            </li>
+                            <li>
+                              <a href="yeuthich.html">Danh sách yêu thích</a>
+                          </li>
+                            <li>
+                                <a href="../chuaDN/index.html">Đăng xuất</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+               </div>
+               <div class="col-md-9 col-sm-12">
+                   <div class="blk-user-right blk-user-bor full d-block">
+                       <header>
+                           <h2>Thay đổi mật khẩu</h2>
+                           <div class="content"><h5>Bạn nên cập nhập mật khẩu thường xuyên vì lý do bảo mật</h5></div>
+                       </header>
+                       <form class="formAcount validate clearfix">
+                           <div class="form-group clearfix">
+                               <div class="row">
+                                   <label class="col-md-3 control-label">
+                                       Mật khẩu cũ:
+                                       <samp>(*)</samp>
+                                   </label>
+                                   <div class="col-lg-6 col-md-9">
+                                    <input type="text" class="validate form-control " placeholder="Mật khẩu cũ">
+                                   </div>
+                               </div>
+                            <div class="form-group clearfix">
+                               <div class="row mt-3">
+                                   <label class="col-md-3 control-label">
+                                       Mật khẩu mới:
+                                       <samp>(*)</samp>
+                                   </label>
+                                   <div class="col-lg-6 col-md-9">
+                                    <input type="text" class="validate form-control " placeholder="Mật khẩu mới">
+                                   </div>
+                               </div>
+                            </div>
+                            <div class="form-group clearfix">
+                               <div class="row">
+                                   <label class="col-md-3 control-label">
+                                       Nhập lại mật khẩu:
+                                       <samp>(*)</samp>
+                                   </label>
+                                   <div class="col-lg-6 col-md-9">
+                                    <input type="text" class="validate form-control " placeholder="Nhập lại mật khẩu">
+                                   </div>
+                               </div>
+                            </div>
+                            <div class="form-group clearfix">
+                                <div class="row">
+                                  <label class="col-md-3 control-label"></label>
+                                 <div class="col-lg-6 col-md-9">
+                                     <div class ="add col-lg-4 col-md-2 text-center mt-1" >
+                                        <a class="addto" href="" >Xác nhận</a>
+                                    </div>
+                                 </div>
+                                    </div>
+                                </div>
+                               </div>
+                        </form>
+                   </div>
+               </div>
+            </div>
+          </div>
+        </div>
+    </article>
+    <footer class="text-center text-lg-start bg-light text-muted container-fluid p-0  ">
+      <div class="load-html" data-source = "zzzfooter.html"></div>
+    </footer>
+  <script src="../../libs/jquery/jquery.min.js"></script>
+  <script src="../../libs/bs/js/bootstrap.min.js"></script>
+  <script src="../../libs/jquery/sakura-master/dist/sakura.min.js"></script>
+  <script src="../../libs/jquery/load_html.js"></script>
+  <script>
+      var sakura = new Sakura('body');
+      sakura.maxSize=100;
+      sakura.fallSpeed=6;
+  </script>
+</body>
+</html>

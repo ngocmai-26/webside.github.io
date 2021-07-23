@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh toán sản phẩm</title>
+    
+    <link rel="stylesheet" href="../../libs/bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../libs/jquery/sakura-master/dist/sakura.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../libs/css/thanhtoan.css">
+</head>
+<body>
+  <header >
+    <div class="load-html" data-source = "zzzheader2.html"></div>
+    </header>
+   
+    <article class="container py-5 main">
+    <div class="checkout-page container sty-none">
+        <form class="formCheckOut formAcount validate">
+            <div class="row">
+                <div class="col-checkout col-left col-xl-4 col-lg-6 col-12 ">
+                    <h4 class="col-title">
+                        <samp class="d-inline-flex align-items-center justify-content-center">1</samp>
+                        Thông tin khách hàng
+                    </h4>
+                    <div class="form-group mt-3">
+                        <input type="text" class="validate form-control " placeholder="Họ tên (*)">
+                    </div>
+                    <div class="input-group mt-3">
+                        <input type="text" class="validate form-control " placeholder="Điện thoại (*)">
+                    </div>
+                    <div class="input-group mt-3">
+                        <input type="text" class="validate form-control " placeholder="Email (*)">
+                    </div>
+                    <div class="input-group mt-3">
+                        <input type="text" class="validate form-control " placeholder="Địa chỉ chi tiết (*)">
+                    </div>
+                    <div class="form-group mt-3">
+                        <select class="validate form-control" id="sel1" name="sellist1">
+                          <option selected>Tỉnh/Thành phố(*)</option>
+                          <option value="1">Hà Nội</option>
+                          <option value="2">Hồ Chí Minh</option>
+                          <option value="3">An Giang</option>
+                          <option value="4">Bà Rịa - Vũng Tàu</option>
+                          <option value="5">Bắc Ninh</option>
+                          <option value="6">Bắc Giang</option>
+                          <option value="7">Bình Dương</option>
+                          <option value="8">Bình Định</option>
+                          <option value="9">Bình Phước</option>
+                          <option value="10">Bình Thuận</option>
+                          <option value="11">Bến Tre</option>
+                          <option value="12">Bắc Cạn</option>
+                          <option value="13">Cần Thơ</option>
+                          <option value="14">Khánh Hòa</option>
+                          <option value="15">Thừa Thiên Huế</option>
+                          <option value="16">Lào Cai</option>
+                          <option value="17">Quảng Ninh</option>
+                          <option value="18">Đồng Nai</option>
+                          <option value="19">Nam Định</option>
+                          <option value="20">Cà Mau</option>
+                          <option value="21">Cao Bằng</option>
+                          <option value="22">Gia Lai</option>
+                          <option value="23">Hà Giang</option>
+                          <option value="24">Hà Nam</option>
+                          <option value="25">Hà Tĩnh</option>
+                          <option value="26">Hải Dương</option>
+                          <option value="27">Hải Phòng</option>
+                          <option value="28">Hòa Bình</option>
+                          <option value="29">Hưng Yên</option>
+                          <option value="30">Kiên Giang</option>
+                          <option value="31">Kon Tum</option>
+                          <option value="32">Lai Châu</option>
+                          <option value="33">Lâm Đồng</option>
+                          <option value="34">Lạng Sơn</option>
+                          <option value="35">Long An</option>
+                          <option value="36">Nghệ An</option>
+                          <option value="37">Ninh Bình</option>
+                          <option value="38">Ninh Thuận</option>
+                          <option value="39">Phú Thọ</option>
+                          <option value="40">Phú Yên</option>
+                          <option value="41">Quảng Bình</option>
+                          <option value="42">Quảng Nam</option>
+                          <option value="43">Quảng Ngãi</option>
+                          <option value="44">Quảng Trị</option>
+                          <option value="45">Sóc Trăng</option>
+                          <option value="46">Sơn La</option>
+                          <option value="47">Tây Ninh</option>
+                          <option value="48">Thái Bình</option>
+                          <option value="49">Thái Nguyên</option>
+                          <option value="50">Thanh Hóa</option>
+                          <option value="51">Tiền Giang</option>
+                          <option value="52">Trà Vinh</option>
+                          <option value="53">Tuyên Quang</option>
+                          <option value="54">Vĩnh Long</option>
+                          <option value="55">Vĩnh Phúc</option>
+                          <option value="56">Yên Bái</option>
+                          <option value="57">Đắk Lắk</option>
+                          <option value="58">Đồng Tháp</option>
+                          <option value="59">Đà Nẵng</option>
+                          <option value="60">Đắc Nông</option>
+                          <option value="61">Hậu Giang</option>
+                          <option value="62">Bạc Liêu</option>
+                          <option value="63">Điện Biên</option>
+                          </select>
+                       </div>
+                       <div class="input-group mt-3 ">
+                        <textarea rows="6" placeholder="Ghi chú"></textarea>
+                       </div>
+                       <div class="mt-2">Đơn hàng trên website được xử lý trong giờ hành chính</div>
+                       <div class="mb-4">Vui lòng liên hệ fanpage ngoài khung giờ trên để được hỗ trợ</div>
+                </div>
+                <div class="col-checkout col-center col-xl-4 col-lg-6 col-12">
+                    <h4 class="col-title">
+                        <samp class="d-inline-flex align-items-center justify-content-center">2</samp>
+                        Phương thức thanh toán
+                    </h4>
+                    <div class="d-block item ml-4">
+                        <div class="form-check-label">
+                            <input class="form-check-input" type="radio" name="exampleRadios" value="4" checked>
+                            <label class="form-check-label">
+                                Thanh toán bằng tài khoản ngân hàng
+                              </label>
+                        </div>
+                        <div class="col-pay alert alert-warning collapse in show">
+                            <samp>Với phương thức Chuyển khoản trước toàn bộ tiền hàng, bộ phận CSKH sẽ gọi điện đến bạn để xác nhận đơn hàng và hướng dẫn cách thức thanh toán chuyển khoản ngân hàng</samp>
+                        </div>
+                    </div>
+                    <div class="d-block item ml-4">
+                        <div class="form-check-label">
+                            <input class="form-check-input" type="radio" name="exampleRadios" value="4" checked>
+                            <label class="form-check-label" >
+                                Thanh toán khi nhận hàng
+                              </label>
+                        </div>
+                        <div class="col-pay alert alert-warning collapse in show mb-4">
+                            <p>
+                                <samp>Thanh toán khi nhận hàng (COD) chỉ áp dụng cho các đơn hàng ở các quận/huyện dưới đây thuộc Bình Dương</samp>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-checkout col-right col-xl-4 col-lg-12 col-12">
+                    <h4 class="col-title">
+                        <samp class="d-inline-flex align-items-center justify-content-center">3</samp>
+                        Thông tin giỏ hàng
+                    </h4>
+                    <div class="table-responsive scrollModal">
+                      <table class="table table-checkout" cellspacing="10">
+                        <thead>
+                          <tr>
+                            <th class="text-left" width="45%">Tên sản phẩm</th>
+                            <th class="text-center" width="25%">Số lượng</th>
+                            <th class="text-right" width="30%">Thành tiền</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr class="cartItem">
+                            <td >
+                              <a href="#" class="text">Gấu bông chú chim cánh cụt 25cm</a>
+                              <div class="clearfix">
+                                Đơn giá:
+                                <strong>125.000đ</strong>
+                              </div>
+                            </td>
+                            <td class="text-center">1</td>
+                            <td class="text-right">125.000đ</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                      <table class="table table-checkout" cellspacing="10">
+                        <tfoot>
+                          <tr>
+                          <td colspan="2">
+                            <strong>Tạm tính</strong>
+                          </td>
+                          <td class="text-right">125.000đ</td>
+                        </tr>
+                        <tr>
+                          <td colspan="2">Phí vận chuyển</td>
+                          <td class="text-right" >0đ</td>
+                        </tr>
+                      <tr>
+                        <td colspan="2">
+                          <strong>Mã giảm giá</strong>
+                        </td>
+                        <td class="text-right">0đ</td>
+                      </tr>
+                      <tr>
+                        <td colspan="2">
+                         <strong>Tổng cộng</strong>
+                        </td>
+                        <td class="text-right">125.000đ</td>
+                      </tr>
+                        </tfoot>
+                      </table>
+                    </div>
+                    <div class="formCode form-group">
+                      <strong class="d-block  ml-2">Nhập mã ưu đãi</strong>
+                      <div class="input-group  ml-2" >
+                        <input type="text" class="validate form-control" placeholder="Mã giảm giá">
+                        <div class="input-group-btn">
+                          <button class="btn" type="button">Áp dụng</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-check ">
+                      <label class="form-check-label  ml-2">
+                        <input class="form-check-input" type="checkbox">
+                        <p>Tôi đồng ý với các điều khoản 
+                          <a href="#" class="policy">chính sách giao hàng</a>
+                        </p>
+                      </label>
+                    </div>
+                    <div class="row">
+                    <div class="col-lg-8 col-md-10"></div>
+                      <div class ="add col-lg-4 col-md-2" >
+                        <a class="addto" href="" ><h4 class="pay text-center ">Thanh toán</h4></a>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </form>
+    </div>
+    <div class="row mt-5">
+      <div class="product col-12 col-lg-12 font-weight-bold"><h3 class="title"><samp>Sản phẩm tương tự</samp></h3>
+    </div>  
+    <div class="row">
+      <div class="col-4 col-sm-3 col-md-4 col-lg-2 col-xl-2 ">
+        <div class="card bg-dark text-white rounded-0 border-0">
+          <img src="../../images/Gấu Bông/Gấu bông cute/gấu bông heo size 70cm 259.jpg" class="card-img">
+        </div>
+        <br>
+        <a href="#" class="card-link"><h5 class="text-dark">Gấu bông heo hồng siêu lười 70cm</h5></a>
+        <br>
+
+        <h5 class="text-dark fw-bold font-weight-bold"><samp>259.000đ</samp></h5>
+      </div>
+
+      <div class="col-4 col-sm-3 col-md-4 col-lg-2 col-xl-2 ">
+        <div class="card bg-dark text-white rounded-0 border-0">
+          <img src="../../images/Gấu Bông/Gấu bông cute/gấu chó.jpg" class="card-img" alt="...">
+        </div>
+        <br>
+        <a href="#" class="card-link"><h5 class="text-dark">Gấu bông chú chó tai cụp 30cm</h5></a>
+        <br>
+        <h5 class="text-dark fw-bold font-weight-bold"><samp>105.000đ</samp></h5>
+      </div>
+
+      <div class="col-4 col-sm-3 col-md-4 col-lg-2 col-xl-2 ">
+        <div class="card bg-dark text-white rounded-0 border-0">
+          <img src="../../images/Gấu Bông/Gấu bông cute/quả bơ bông 90.jfif" class="card-img" alt="...">
+        </div>
+        <br>
+        <a href="#" class="card-link"><h5 class="text-dark">Gấu bông hình quả bơ mềm 20cm</h5></a>
+        <br>
+        <h5 class="text-dark fw-bold font-weight-bold"><samp>90.000đ</samp></h5>
+      </div>
+
+      <div class="col-4 col-sm-3 col-md-4 col-lg-2 col-xl-2 ">
+        <div class="card bg-dark text-white rounded-0 border-0">
+          <img src="../../images/Gấu Bông/Gấu bông cute/gấu bông bò sửa.jpg" class="card-img" alt="...">
+        </div>
+        <br>
+       
+        <a href="#" class="card-link"><h5 class="text-dark">Gấu bông bò sữa dễ thương 40cm </h5></a>
+        <br>
+
+        <h5 class="text-dark fw-bold font-weight-bold"><samp>89.000đ</samp></h5>
+
+      </div>
+      <div class="col-4 col-sm-3 col-md-4 col-lg-2 col-xl-2 ">
+        <div class="card bg-dark text-white rounded-0 border-0">
+          <img src="../../images/Gấu Bông/Gấu bông cute/gấu bông bánh bao 300.jfif" class="card-img" alt="...">
+        </div>
+        <br>
+       
+        <a href="#" class="card-link"><h5 class="text-dark">Gấu bông sóc bánh bao cute 50cm</h5></a>
+        <br>
+
+        <h5 class="text-dark fw-bold font-weight-bold"><samp>300.000đ</samp></h5>
+
+      </div>
+        </div>
+        </div>
+    </article>
+    <footer class="text-center text-lg-start bg-light text-muted container-fluid p-0  ">
+        <div class="load-html" data-source = "zzzfooter.html"></div>
+      </footer>
+  <script src="../../libs/jquery/jquery.min.js"></script>
+    <script src="../../libs/bs/js/bootstrap.min.js"></script>
+  <script src="../../libs/jquery/load_html.js"></script>
+  <script>
+      var sakura = new Sakura('body');
+      sakura.maxSize=100;
+      sakura.fallSpeed=6;
+  </script>
+</body>
+</html>

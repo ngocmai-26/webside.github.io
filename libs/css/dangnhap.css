@@ -1,0 +1,155 @@
+  .bg-nav{
+    background-color:#ffb0bd!important;
+  }
+  *{
+    font-family:'Nunito-ExtraBold' ;
+  }
+  .nav-color{
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3) !important;
+    color:#8a4762!important;
+    font-weight: 650;
+    font-size: 1rem;
+  }
+  
+  .navbar{
+    flex-direction: row!important;
+  }
+  .dropdown-menu{
+    background-color: #ffb0bd!important;
+    color:#8a4762!important;
+    flex-direction: row!important;
+    border-radius:2px;
+  }
+  .dropdown-item{
+    background-color: #ffb0bd!important;
+    color:#8a4762!important;
+    flex-direction: row!important;
+  }
+  .bg-nav a:hover{
+    color:#e56266!important;
+  }
+  .btn-search{
+    border-color: transparent!important;
+    font-size:15px;
+    background-color: #ff7694!important;
+  }
+  .btn-search .fa{
+    color:#ffff;
+  }
+  .border-search{
+    border: 2px solid #fc91a8!important;
+  }
+  .border-search:focus{
+    outline: none!important;
+    box-shadow: none!important;
+  }
+  html,body{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box!important;
+  
+  }
+  .dropdown-toggle::after{
+    content: none !important;
+  }
+  .dropdown-menu{opacity: 0!important;transition: 0.4s!important;}
+  .dropdown:hover .dropdown-menu{
+    display: block;
+    opacity: 1!important;
+    transition: 0.4s!important;
+  }
+
+  footer{
+    background-color: #ff94ab!important;
+  }
+  .icon a:hover{
+    color: aliceblue;
+  }
+  .address .link:hover{
+    color:rgb(240, 116, 167)!important;
+    text-decoration: none;
+  }
+  .icon{
+   font-size:42px;
+  }
+  .icon .fa{
+    color:#ff7694;
+  }
+  .row .login{
+    text-decoration: none;
+  }
+  .row .login .logins{
+    color: #ffb0bd;
+
+  }
+  .validate{
+    border: 1px solid #696667!important;
+  }
+  .ten{
+    border: 1px solid #696667!important;
+    height: 50px;
+  }
+  .login{
+    background-color: #ffb0bd;
+    border-radius:3px;
+    width: 100%;
+    height: 35px;
+  }
+  .login a{
+    text-decoration: none;
+  }
+  a .text-center{
+    color: #ffff;
+    padding:  1.5% 0 1.5% 0;
+  }
+  .login:hover{
+    background-color: rgb(226, 143, 168);
+  }
+  .clearfix .forget{
+    color: rgb(66, 64, 64);
+   text-decoration: none;
+  }
+  .loginfb{
+    background-color: #2e4b88;
+    border-radius:3px;
+    width: 100%;
+  }
+  .loginfb a{
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .loginfb a .fa{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 2% 1% 2% 35%;
+    font-size: 1rem;
+  }
+
+  .logingg{
+    background-color: #ea4235;
+    border-radius:3px;
+    width: 100%;
+  }
+  .logingg a{
+    text-decoration: none;
+    color: aliceblue;
+  }
+  .logingg a .fa{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 2% 1% 2% 35%;
+    font-size: 1rem;
+  }
+  hr{
+    border-top: 1px solid #ffb0bd;
+  }
+  @media (max-width:576px){
+    .loginfb a .fa{
+      padding: 2% 1% 2% 20%;
+    }
+  }
+  @media (max-width:576px){
+    .logingg a .fa{
+      padding: 2% 1% 2% 20%;
+    }
+  }

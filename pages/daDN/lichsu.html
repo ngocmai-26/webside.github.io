@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lịch sử đơn hàng</title>
+
+    <link rel="stylesheet" href="../../libs/bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../libs/jquery/sakura-master/dist/sakura.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../libs/css/taikhoan.css">
+</head>
+<body>
+  <header >
+    <div class="load-html" data-source = "zzzheader2.html"></div>
+   </header>
+    <article class="container py-5 main">
+        <div class="row">
+          <div class="blk-user col-md-12">
+            <div class="row">
+               <div class="col-md-3 col-sm-12 mb-4">
+                <div class="blk-user-left blk-user-bor full d-block text-center">
+                    <div class="blk-user-avatar">
+                        <img src="../../images/icon/01480f29ce376005edcbec0b30cf367d.jpg" alt="avatar" >
+                        <h5 >Ngọc Mai</h5>
+                    </div>
+                    <div class="blk-user-nav text-left">
+                        <ul>
+                            <li>
+                                <a href="taikhoan.html">Thông tin tài khoản</a>
+                            </li>
+                            <li>
+                                <a href="matkhau.html">Đổi mật khẩu</a>
+                            </li>
+                            <li>
+                                <a href="thongbao.html">Thông báo</a>
+                            </li>
+                            <li>
+                                <a href="lichsu.html" class="active">Lịch sử đơn hàng</a>
+                            </li>
+                            <li>
+                                <a href="yeuthich.html">Danh sách yêu thích</a>
+                            </li>
+                            <li>
+                                <a href="../chuaDN/index.html">Đăng xuất</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+               </div>
+               <div class="col-md-9 col-sm-12">
+                   <div class="blk-user-right blk-user-bor full d-block">
+                       <div class="header-pdd-order">
+                        <header>
+                            <h2>Lịch sử đơn hàng</h2>
+                        </header>
+                       </div>
+                       <div class="table-responsive">
+                           <table class="tableOrder table">
+                                <thead>
+                                    <tr>
+                                        <th width="30%">Mã đơn hàng</th>
+                                        <th width="30%" class="text-center">Ngày</th>
+                                        <th width="20%" class="text-center">Tổng đơn</th>
+                                        <th width="25%" class="text-center">Trạng thái</th>
+                                        <th width="25%" class="text-center"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    
+                                </tbody>
+                           </table>
+                       </div>
+                       <div class="alert alert-warning alert-dismissible fade show text-center">
+                        Danh sách mua hàng của bạn hiện chưa có đơn hàng nào được hoàn thành!
+                    </div>
+                   </div>
+               </div>
+            </div>
+          </div>
+            </div>
+    </article>
+    <footer class="text-center text-lg-start bg-light text-muted container-fluid p-0  ">
+      <div class="load-html" data-source = "zzzfooter.html"></div>
+    </footer>
+  <script src="../../libs/jquery/jquery.min.js"></script>
+  <script src="../../libs/bs/js/bootstrap.min.js"></script>
+  <script src="../../libs/jquery/sakura-master/dist/sakura.min.js"></script>
+  <script src="../../libs/jquery/load_html.js"></script>
+  <script>
+      var sakura = new Sakura('body');
+      sakura.maxSize=100;
+      sakura.fallSpeed=6;
+  </script>
+</body>
+</html>

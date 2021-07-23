@@ -1,0 +1,114 @@
+  .bg-nav{
+    background-color:#ffb0bd!important;
+  }
+  *{
+    font-family:'Nunito-ExtraBold' ;
+  }
+  .nav-color{
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3) !important;
+    color:#8a4762!important;
+    font-weight: 650;
+    font-size: 1rem;
+  }
+  
+  .navbar{
+    flex-direction: row!important;
+  }
+  .dropdown-menu{
+    background-color: #ffb0bd!important;
+    color:#8a4762!important;
+    flex-direction: row!important;
+  }
+  .dropdown-item{
+    background-color: #ffb0bd!important;
+    color:#8a4762!important;
+    flex-direction: row!important;
+  }
+  .bg-nav a:hover{
+    color:#e56266!important;
+  }
+  .btn-search{
+    border-color: transparent!important;
+    font-size:15px;
+    background-color: #ff7694!important;
+  }
+  .btn-search .fa{
+    color:#ffff;
+  }
+  .border-search{
+    border: 2px solid #fc91a8!important;
+  }
+  .border-search:focus{
+    outline: none!important;
+    box-shadow: none!important;
+  }
+  html,body{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box!important;
+  
+  }
+  .dropdown-toggle::after{
+    content: none !important;
+  }
+  .dropdown-menu{opacity: 0!important;transition: 0.4s!important;}
+  .dropdown:hover .dropdown-menu{
+    display: block;
+    opacity: 1!important;
+    transition: 0.4s!important;
+  }
+  .card img{
+    height:100%!important;
+    transition:  0.4s!important;
+ }
+  .card{
+    overflow: hidden!important;
+    max-height:250px!important;
+ }
+  .card:hover img{
+    transition:  0.4s!important;
+    transform: scale(1.2);
+ }
+  .card img{
+    height:100%!important;
+    transition:  0.4s!important;
+  }
+  .card{
+    overflow: hidden!important;
+    max-height:500px!important;
+  }
+  @media (max-width:576px){
+    .card{
+        max-height: 300px!important;
+    }
+  }
+  footer{
+    background-color: #ffb0bd!important;
+  }
+  hr{
+    border: 1px solid #ffb0bd!important;
+    width: 100%;
+  }
+  .icon{
+    font-size:42px;
+  }
+  .icon .fa{
+    color:#ff7694;
+  }  
+  .row h1{
+    color: rgb(236, 164, 188);
+  }
+  .row .card-icon{
+  font-size: 1.5rem;
+  color: #fa8ea5;
+ }
+ .row  .card-icon:hover{
+  color: #e56266;
+ }
+ .card-link h5{
+  color: #030303!important;
+  text-decoration: none;
+}
+.card-link h5:hover{
+  color: #ffb0bd!important;
+}

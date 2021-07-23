@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí tài khoản</title>
+
+    <link rel="stylesheet" href="../../libs/bs/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../libs/jquery/sakura-master/dist/sakura.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../libs/css/dangnhap.css">
+</head>
+<body>
+  <header >
+    <div class="load-html" data-source = "zzzheader.html"></div>
+    </header>
+    <article class="container py-5 main">
+    <div class="row">
+      <div class="col-lg-12 col-sm-12 col-md-12 text-lg-start font-weight-bold">
+        <div class="row justify-content-center">
+           <div class="col-6 col-lg-3 col-sm-6 col-md-3  text-center">
+            <a href="dangnhap.html" class="login"><h5 class="logins">ĐĂNG NHẬP</h5></a>
+           </div>
+           <div class="col-6 col-lg-3 col-sm-6 col-md-3  text-center">
+            <a href="dangki.html" class="login"><h5 class="logins">ĐĂNG KÝ</h5></a>
+            <hr>
+           </div>
+           <div class="w-100"></div>
+          <div class="col-lg-6 col-sm-12 col-md-12  justify-content-center">
+          <div class="input-group">
+           <input type="text" class="validate form-control " placeholder="Tên đăng nhập (*)">
+          </div>
+          <div class="input-group mt-3">
+           <input type="text" class="validate form-control " placeholder="Họ tên (*)">
+          </div>
+          <div class="input-group mt-3">
+            <input type="text" class="validate form-control " placeholder="Điện thoại (*)">
+           </div>
+           <div class="input-group mt-3">
+            <input type="text" class="validate form-control " placeholder="Email (*)">
+           </div>
+           <div class="form-group mt-3">
+            <select class="validate form-control" id="sel1" name="sellist1">
+              <option selected>Tỉnh/Thành phố(*)</option>
+              <option value="1">Hà Nội</option>
+              <option value="2">Hồ Chí Minh</option>
+              <option value="3">An Giang</option>
+              <option value="4">Bà Rịa - Vũng Tàu</option>
+              <option value="5">Bắc Ninh</option>
+              <option value="6">Bắc Giang</option>
+              <option value="7">Bình Dương</option>
+              <option value="8">Bình Định</option>
+              <option value="9">Bình Phước</option>
+              <option value="10">Bình Thuận</option>
+              <option value="11">Bến Tre</option>
+              <option value="12">Bắc Cạn</option>
+              <option value="13">Cần Thơ</option>
+              <option value="14">Khánh Hòa</option>
+              <option value="15">Thừa Thiên Huế</option>
+              <option value="16">Lào Cai</option>
+              <option value="17">Quảng Ninh</option>
+              <option value="18">Đồng Nai</option>
+              <option value="19">Nam Định</option>
+              <option value="20">Cà Mau</option>
+              <option value="21">Cao Bằng</option>
+              <option value="22">Gia Lai</option>
+              <option value="23">Hà Giang</option>
+              <option value="24">Hà Nam</option>
+              <option value="25">Hà Tĩnh</option>
+              <option value="26">Hải Dương</option>
+              <option value="27">Hải Phòng</option>
+              <option value="28">Hòa Bình</option>
+              <option value="29">Hưng Yên</option>
+              <option value="30">Kiên Giang</option>
+              <option value="31">Kon Tum</option>
+              <option value="32">Lai Châu</option>
+              <option value="33">Lâm Đồng</option>
+              <option value="34">Lạng Sơn</option>
+              <option value="35">Long An</option>
+              <option value="36">Nghệ An</option>
+              <option value="37">Ninh Bình</option>
+              <option value="38">Ninh Thuận</option>
+              <option value="39">Phú Thọ</option>
+              <option value="40">Phú Yên</option>
+              <option value="41">Quảng Bình</option>
+              <option value="42">Quảng Nam</option>
+              <option value="43">Quảng Ngãi</option>
+              <option value="44">Quảng Trị</option>
+              <option value="45">Sóc Trăng</option>
+              <option value="46">Sơn La</option>
+              <option value="47">Tây Ninh</option>
+              <option value="48">Thái Bình</option>
+              <option value="49">Thái Nguyên</option>
+              <option value="50">Thanh Hóa</option>
+              <option value="51">Tiền Giang</option>
+              <option value="52">Trà Vinh</option>
+              <option value="53">Tuyên Quang</option>
+              <option value="54">Vĩnh Long</option>
+              <option value="55">Vĩnh Phúc</option>
+              <option value="56">Yên Bái</option>
+              <option value="57">Đắk Lắk</option>
+              <option value="58">Đồng Tháp</option>
+              <option value="59">Đà Nẵng</option>
+              <option value="60">Đắc Nông</option>
+              <option value="61">Hậu Giang</option>
+              <option value="62">Bạc Liêu</option>
+              <option value="63">Điện Biên</option>
+              </select>
+           </div>
+           <div class="input-group mt-3">
+            <input type="text" class="validate form-control " placeholder="Địa chỉ chi tiết (*)">
+           </div>
+           <div class="input-group mt-3">
+            <input type="text" class="validate form-control " placeholder="Nhập mật khẩu (*)">
+           </div>
+           <div class="input-group mt-3">
+            <input type="text" class="validate form-control " placeholder="Nhập lại mật khẩu (*)">
+           </div>
+        </div>
+        <div class="w-100"></div>
+        <div class="col-lg-6 col-sm-12 col-md-12 font-weight-bold justify-convalidatet-center mt-3">
+          <div class="login">
+          <a href="index1.html"> <h6 class="text-center">ĐĂNG KÝ</h6></a>
+        </div>
+        </div>
+        </div>
+          </div>
+        </div>
+    </article>
+    <footer class="text-center text-lg-start bg-light text-muted container-fluid p-0  ">
+      <div class="load-html" data-source = "zzzfooter.html"></div>
+    </footer>
+  <script src="../../libs/jquery/jquery.min.js"></script>
+  <script src="../../libs/bs/js/bootstrap.min.js"></script>
+  <script src="../../libs/jquery/sakura-master/dist/sakura.min.js"></script>
+  <script src="../../libs/jquery/load_html.js"></script>
+  <script>
+      var sakura = new Sakura('body');
+      sakura.maxSize=100;
+      sakura.fallSpeed=6;
+  </script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+.bg-nav{
+    background-color:#ffb0bd!important;
+  }
+  *{
+    font-family:'Nunito-ExtraBold' ;
+  }
+  .nav-color{
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3) !important;
+    color:#8a4762!important;
+    font-weight: 650;
+    font-size: 1rem;
+  }
+  
+  .navbar{
+    flex-direction: row!important;
+  }
+  .dropdown-menu{
+    background-color: #ffb0bd!important;
+    color:#8a4762!important;
+    flex-direction: row!important;
+  }
+  .dropdown-item{
+    background-color: #ffb0bd!important;
+    color:#8a4762!important;
+    flex-direction: row!important;
+  }
+  .bg-nav a:hover{
+    color:#e56266!important;
+  }
+  .btn-search{
+    border-color: transparent!important;
+    font-size:15px;
+    background-color: #ff7694!important;
+  }
+  .btn-search .fa{
+    color:#ffff;
+  }
+  .border-search{
+    border: 2px solid #fc91a8!important;
+  }
+  .border-search:focus{
+    outline: none!important;
+    box-shadow: none!important;
+  }
+  html,body{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box!important;
+  
+  }
+  .dropdown-toggle::after{
+    content: none !important;
+  }
+  .dropdown-menu{opacity: 0!important;transition: 0.4s!important;}
+  .dropdown:hover .dropdown-menu{
+    display: block;
+    opacity: 1!important;
+    transition: 0.4s!important;
+  }
+  .card img{
+    height:100%!important;
+    transition:  0.4s!important;
+ }
+  .card{
+    overflow: hidden!important;
+    max-height:250px!important;
+ }
+  .card:hover img{
+    transition:  0.4s!important;
+    transform: scale(1.2);
+ }
+  .card img{
+    height:100%!important;
+    transition:  0.4s!important;
+  }
+  .card{
+    overflow: hidden!important;
+    max-height:500px!important;
+  }
+  @media (max-width:576px){
+    .card{
+        max-height: 300px!important;
+    }
+  }
+  footer{
+    background-color: #ffb0bd!important;
+  }
+  hr{
+    border: 1px solid #ffb0bd!important;
+    width: 100%;
+  }
+  .icon{
+    font-size:42px;
+  }
+  .icon .fa{
+    color:#ff7694;
+  }  
+.do{
+    color : Red;
+}
+.nut{
+    height:50px;
+    width:100%;
+    color: gray;
+    background-color: pink;
+    border-color: pink;
+}
+#DIV_1 {
+    height: 100px;
+    outline-offset: -10px;
+    position: relative;
+    width: 100%;
+    background: rgb(204, 204, 204) none repeat scroll 0% 0% / auto padding-box border-box;
+    outline: rgb(128, 128, 128) dashed 2px;
+    padding: 0px 35px;
+}
+#INPUT_1 {
+    bottom: 5px;
+    left: 15px;
+    right: -15px;
+    top: 0px;
+    opacity: 0;
+    position: absolute;
+    font: 13px / 10px "Maven Pro";
+}
+#P_1 {
+    color: rgb(105, 105, 105);
+    padding: 30px;
+}
+
+textarea{
+  width: 100%;
+}
+input{
+  width: 100%;
+}
+.xxx{
+  margin-left: 7%;
+  width: 700px;
+  height: 550px;
+}

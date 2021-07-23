@@ -1,0 +1,74 @@
+.bg-nav{
+    background-color:#ffb0bd!important;
+  }
+  *{
+    font-family:'Nunito-ExtraBold' ;
+  }
+
+  .bg-nav a:hover{
+    color:#e56266!important;
+  }
+
+  html,body{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box!important;
+  
+  }
+  
+  footer{
+    background-color: #ff94ab!important;
+  }
+
+  .icon a:hover{
+    color: aliceblue;
+  }
+  .address .link:hover{
+    color:rgb(240, 116, 167)!important;
+    text-decoration: none;
+  }
+  .icon{
+   font-size:42px;
+  }
+  .icon .fa{
+    color:#ff7694;
+  }
+  .row .login{
+    text-decoration: none;
+  }
+  .row .login .logins{
+    color: #ffb0bd;
+
+  }
+  .text a:hover{
+    color:#ffb0bd!important;
+    text-decoration: none;
+  }
+  .text a{
+    color: rgb(8, 8, 8);
+     text-decoration: none;
+  }
+  .card-link h5{
+    color: #030303!important;
+    text-decoration: none;
+  }
+  .card-link h5:hover{
+    color: #ffb0bd!important;
+  }
+  .card-img{
+      height: 500px;
+  }
+  .question{
+    margin: 2rem;
+    border-bottom: 1px solid rgb(201, 197, 197);
+  }
+  .question h4{
+    color: #030303;
+    text-decoration: none;
+  }
+  .question a:hover{
+    text-decoration: none;
+  }
+  header h2{
+    color: #f58fa0;
+  }
