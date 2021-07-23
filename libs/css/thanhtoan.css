@@ -148,3 +148,9 @@
   textarea{
     width: 100%;
   }
+  .row .product{
+    border: 1px pink;
+    background-color: #ffb0bd;
+    color: white;
+    margin-bottom: 2px;
+  }
