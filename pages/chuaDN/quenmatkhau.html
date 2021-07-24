@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng nhập tài khoản</title>
+    <title>Đăng kí tài khoản</title>
+
     <link rel="stylesheet" href="../../libs/bs/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../libs/jquery/sakura-master/dist/sakura.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -119,50 +120,29 @@
                 </div>
             </div>
     </header>
-    <article class="container py-5 main ">
-    <div class="row">
-      <div class="col-lg-12 col-sm-12 col-md-12 text-lg-start font-weight-bold">
-        <div class="row  justify-content-center">
-           <div class=" col-6 col-lg-3 col-sm-6 col-md-3 text-center">
-            <a href="dangnhap.html" class="login"><h5 class="logins">ĐĂNG NHẬP</h5></a>
-            <hr >
-           </div>
-           <div class="col-6 col-lg-3 col-sm-6 col-md-3  text-center">
-            <a href="dangki.html" class="login"><h5 class="logins">ĐĂNG KÝ</h5></a>
-           </div>
-           <div class="w-100"></div>
-          <div class="col-lg-6 col-sm-12 col-md-12 font-weight-bold justify-content-center">
-          <div class="input-group">
-           <input type="text" class="validate form-control " placeholder="Nhập email hoăc tên đăng nhập">
-          </div>
-          <div class="input-group mt-3">
-           <input type="text" class="validate form-control " placeholder="Mật khẩu">
-          </div>
-          </div>
-          <div class="w-100"></div>
-          <div class="col-lg-6 col-sm-12 col-md-12 font-weight-bold justify-content-center mt-3">
-            <div class="login">
-            <a href="../daDN/index1.html"> <h6 class="text-center">ĐĂNG NHẬP</h6></a>
-          </div>
-          <div class="clearfix text-center"><a class="forget" href="quenmatkhau.html"><p>Quên mật khẩu?</p></a></div>
-          <div class="text-center"><h5>Hoặc đăng nhập với</h5></div>
-          </div>
-          <div class="w-100"></div>
-          <div class="col-lg-6 col-sm-12 col-md-12 font-weight-bold justify-content-center mt-3">
-            <div class="loginfb">
-            <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i>Đăng nhập bằng facebook</a>
-          </div>
-          </div>
-          <div class="w-100"></div>
-          <div class="col-lg-6 col-sm-12 col-md-12 font-weight-bold justify-content-center mt-3">
-            <div class="logingg">
-            <a href="https://accounts.google.com/"><i class="fa fa-google"></i>Đăng nhập bằng google</a>
-          </div>
-          </div>
-        </div>
-          </div>
-        </div>
+    <article class="container py-5 main">
+        <div class="col-lg-12 col-sm-12 col-md-12 text-lg-start font-weight-bold">
+            <div class="row justify-content-center">
+                <div class="col-6 col-lg-6 col-sm-6 col-md-6 text-center mm ">
+                    <a href="dangnhap.html" class="login "><h5 class="logins mt-2 ">Quên mật khẩu</h5></a>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-6 col-lg-6 col-sm-6 col-md-6 nn ">
+                  <div class="col-12 col-lg-12 col-sm-12 col-md-12  justify-content-center">
+                <label class="required mt-2">
+                    <span>*</span>
+                    Nhập địa chỉ email/sdt:
+                </label>
+                <div class="input-group mt-3">
+                    <input type="text" class="validate form-control " placeholder="">
+                </div>
+                <div class="login mt-3 mb-4">
+                    <a href="mk.html"> <h6 class="text-center">XÁC NHẬN</h6></a>
+                </div>
+                  </div>
+                   
     </article>
+    </div>
     <footer class="text-center text-lg-start bg-light text-muted container-fluid p-0  ">
       <section class="bg-nav mt-5">
         <div class="container text-center text-md-start  ">
@@ -211,7 +191,6 @@
               <p>
                 <a href="lienhe.html" class="text-reset">Cơ sở 2: Vĩnh Tân, Tân Uyên, Bình Dương</a>
               </p>
-  
             </div>
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 mt-5">
               <h6 class="text-uppercase fw-bold mb-4">
@@ -227,7 +206,7 @@
           </div>
         </div>
       </section>
-      <div class="text-center p-4 bg-nav  mt-1" style="background-color: rgba(0, 0, 0, 0.05);">
+      <div class="text-center p-4 bg-nav Copyright">
         © 2021 Copyright:
         <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
       </div>
@@ -235,7 +214,6 @@
   <script src="../../libs/jquery/jquery.min.js"></script>
   <script src="../../libs/bs/js/bootstrap.min.js"></script>
   <script src="../../libs/jquery/sakura-master/dist/sakura.min.js"></script>
-  <script src="../../libs/jquery/load_html.js"></script>
   <script>
       var sakura = new Sakura('body');
       sakura.maxSize=100;
