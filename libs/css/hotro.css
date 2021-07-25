@@ -72,3 +72,14 @@
   header h2{
     color: #f58fa0;
   }
+  @media (max-width:767px){
+    .js-fil-bar{
+      display: none;
+    }
+  }
+  
+  @media (max-width:767px){
+    img.card-img.ml-3{
+      height: 200px;
+    }
+  }
