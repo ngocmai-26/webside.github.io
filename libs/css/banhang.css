@@ -11,16 +11,19 @@
   font-size: 1rem;
 }
 
+.navbar-brand img{
+  height: 120px;
+}
 .navbar{
   flex-direction: row!important;
 }
 .dropdown-menu{
-  background-color: #ffb0bd!important;
+  background-color: #eec9cf!important;
   color:#8a4762!important;
   flex-direction: row!important;
 }
 .dropdown-item{
-  background-color: #ffb0bd!important;
+  background-color: #eec9cf!important;
   color:#8a4762!important;
   flex-direction: row!important;
 }

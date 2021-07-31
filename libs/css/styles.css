@@ -10,17 +10,19 @@
     font-weight: 650;
     font-size: 1rem;
   }
-  
+   .navbar-brand img{
+    height: 120px;
+  }
   .navbar{
     flex-direction: row!important;
   }
   .dropdown-menu{
-    background-color: #ffb0bd!important;
+    background-color: #eec9cf!important;
     color:#8a4762!important;
     flex-direction: row!important;
   }
   .dropdown-item{
-    background-color: #ffb0bd!important;
+    background-color: #eec9cf!important;
     color:#8a4762!important;
     flex-direction: row!important;
   }
@@ -111,4 +113,13 @@
 }
 .card-link h5:hover{
   color: #ffb0bd!important;
+}
+@media (max-width:576px){
+  h1.fw-bold.display-6.text-center{
+      font-size: 1.7rem;
+      margin-top: 1rem;
+  }
+}
+h1.fw-bold.display-6.text-center{
+  margin-top: 1rem;
 }

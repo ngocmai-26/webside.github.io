@@ -11,17 +11,19 @@
     font-size: 1rem;
   }
   
+  .navbar-brand img{
+    height: 120px;
+  }
   .navbar{
     flex-direction: row!important;
   }
   .dropdown-menu{
-    background-color: #ffb0bd!important;
+    background-color: #eec9cf!important;
     color:#8a4762!important;
     flex-direction: row!important;
-    border-radius:2px;
   }
   .dropdown-item{
-    background-color: #ffb0bd!important;
+    background-color: #eec9cf!important;
     color:#8a4762!important;
     flex-direction: row!important;
   }
@@ -89,19 +91,19 @@
     border: 1px solid #696667!important;
     height: 50px;
   }
-  .login{
+  .login .mm{
     background-color: #ffb0bd;
+    color: #ffff;
     border-radius:3px;
     width: 100%;
     height: 35px;
+    font-size: 1.3rem;
+
   }
-  .login a{
-    text-decoration: none;
+  label{
+    width: 100%;
   }
-  a .text-center{
-    color: #ffff;
-    padding:  1.5% 0 1.5% 0;
-  }
+
   .login:hover{
     background-color: rgb(226, 143, 168);
   }
@@ -160,4 +162,7 @@
   .nn{
     border: 1px solid rgb(163, 161, 161);
   }
-  
+  .modal-body{
+    background-color: rgb(175, 241, 197);
+    color: rgb(122, 170, 119);
+  }

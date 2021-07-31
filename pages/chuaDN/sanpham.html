@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../../libs/bs/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../libs/jquery/sakura-master/dist/sakura.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../libs/css/splide.min.css">
    
 </head>
 <body>
@@ -25,7 +26,7 @@
                 </div>
             </div>
           </div>
-          <nav class="container-fluid py-2">
+          <nav class="container-fluid">
            <div class="row ">
             <div class="col-12 col-sm-3 col-md-4 col-lg-4 text-center">
               <a href="../../index.html" class="navbar-brand">
@@ -120,34 +121,38 @@
                 </div>
             </div>
     </header>
-    <article class="container py-5 main">
+    <article class="container py-4 main">
       <div class = "row ">
       <div class=" col-lg-5 col-md-12 col-sm-12 js-fil-bar">
         <div class="row">
           <div class="product-item col-lg-12 col-md-12 col-12 col-xxs-12 ">
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-12 col-xxs-12 mb-4 ">
-              <div class="mySlides">
-                <img src="../../images/Gấu Bông/Gấu bông cute/Chim cánh cụt 125.jpg">
+            <div class="splide" id="primary-slider">
+              <div class="splide__track">
+                  <ul class="splide__list">
+                      <li class="splide__slide"><img src="../../images/Gấu Bông/Gấu bông cute/chim canh cut 2.jfif" style="height: 500x;"></li>
+                      <li class="splide__slide"><img src="../../images/Gấu Bông/Gấu bông cute/chim canh cụt1.jfif" style="height: 500px;"></li>
+                      <li class="splide__slide"><img src="../../images/Gấu Bông/Gấu bông cute/Chim cánh cụt 125.jpg" style="height: 500px;"></li>
+                      <li class="splide__slide"><img src="../../images/Gấu Bông/Gấu bông cute/chim canh cut 2.jfif" style="height: 500x;"></li>
+                      <li class="splide__slide"><img src="../../images/Gấu Bông/Gấu bông cute/chim canh cụt1.jfif" style="height: 500px;"></li>
+                      <li class="splide__slide"><img src="../../images/Gấu Bông/Gấu bông cute/Chim cánh cụt 125.jpg" style="height: 500px;"></li>
+                  </ul>
               </div>
-              <div class="mySlides">
-                <img src="../../images/Gấu Bông/Gấu bông cute/chim canh cụt1.jfif" >
-              </div>
+          </div>
+          <div class="splide" id="secondary-slider">
+              <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide"><img src="../../images/Gấu Bông/Gấu bông cute/chim canh cut 2.jfif" style="height: 200px;"></li>
+                    <li class="splide__slide"><img src="../../images/Gấu Bông/Gấu bông cute/chim canh cụt1.jfif" style="height: 200px;"></li>
+                    <li class="splide__slide"><img src="../../images/Gấu Bông/Gấu bông cute/Chim cánh cụt 125.jpg" style="height: 200px;"></li>
+                    <li class="splide__slide"><img src="../../images/Gấu Bông/Gấu bông cute/chim canh cut 2.jfif" style="height: 200px;"></li>
+                    <li class="splide__slide"><img src="../../images/Gấu Bông/Gấu bông cute/chim canh cụt1.jfif" style="height: 200px;"></li>
+                    <li class="splide__slide"><img src="../../images/Gấu Bông/Gấu bông cute/Chim cánh cụt 125.jpg" style="height: 200px;"></li>
             </div>
-              <div class="col-lg-12 col-md-12 col-12 col-xxs-12 mb-4">
-              <div class="row justify-content-center mt-2">
-                <div class="column">
-                  <img class="demo cursor" src="../../images/Gấu Bông/Gấu bông cute/Chim cánh cụt 125.jpg" onclick="currentSlide(1)" alt="The Woods">
-                </div>
-                <div class="column">
-                  <img class="demo cursor" src="../../images/Gấu Bông/Gấu bông cute/chim canh cụt1.jfif" onclick="currentSlide(2)" alt="Cinque Terre">
-                </div>
-              </div>
-              </div>
-           </div>
           </div>
         </div>
-      </div>
+        </div>
+           </div>
+       
       <br>
       <div class="col-lg-7 col-md-12 col-sm-12">
          <div class="col-lg-12">
@@ -522,6 +527,39 @@
   <script src="../../libs/jquery/showslide.js"></script>
   <script src="../../libs/jquery/amout.js"></script>
   <script src="../../libs/jquery/load_html.js"></script>
+  <script src="../../libs/bs/js/splide.min.js"></script>
+    <script src=""></script>
+    <script>
+       // Create and mount the thumbnails slider.
+var secondarySlider = new Splide( '#secondary-slider', {
+	rewind      : true,
+	fixedWidth  : 100,
+	fixedHeight : 64,
+	isNavigation: true,
+	gap         : 10,
+	focus       : 'center',
+	pagination  : false,
+	cover       : true,
+	breakpoints : {
+		'600': {
+			fixedWidth  : 66,
+			fixedHeight : 40,
+		}
+	}
+} ).mount();
+
+// Create the main slider.
+var primarySlider = new Splide( '#primary-slider', {
+	type       : 'fade',
+	heightRatio: 0.8,
+	pagination : false,
+	arrows     : false,
+	cover      : true,
+} );
+
+// Set the thumbnails slider as a sync target and then call mount.
+primarySlider.sync( secondarySlider ).mount();
+    </script>
   <script>
       var sakura = new Sakura('body');
       sakura.maxSize=100;
